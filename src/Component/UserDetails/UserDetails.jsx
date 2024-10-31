@@ -9,7 +9,7 @@ const UserDetails = () => {
     const {name, website} = user;
     return (
         <div>
-            <h2>User Details: {name}</h2>
+            <h2>User Name: {name}</h2>
             <p>Visit to : {website}</p>
             <button onClick={handleGoBack}>Go Back</button>
         </div>
