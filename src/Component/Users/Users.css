@@ -1,0 +1,13 @@
+.users{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap:10px ;
+}
+.userContent{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    font-weight: bold;
+    color: gray;
+    align-items: center;
+}
